@@ -11,6 +11,16 @@ public class adminHora extends Thread{
         this.hora = hora;
     }        
 
+    public JLabel getHora() {
+        return hora;
+    }
+
+    public void setHora(JLabel hora) {
+        this.hora = hora;
+    }
+
+    
+    
     @Override
     public void run() {
         while(true){

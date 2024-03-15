@@ -5,6 +5,8 @@ public class BoroaCloud extends javax.swing.JFrame {
         initComponents();
         adminHora time = new adminHora(lb_hora_boroaCloud);
         time.start();
+        adminFecha fecha = new adminFecha(lb_dia_boroaCloud);
+        fecha.start();
     }
 
     
